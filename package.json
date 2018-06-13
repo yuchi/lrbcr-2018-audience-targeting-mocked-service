@@ -1,0 +1,14 @@
+{
+  "name": "wedeploy-service",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "deploy": "we deploy -p bank",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
